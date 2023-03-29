@@ -1,5 +1,10 @@
 # shell-bot
 
+***Note: The server is not running stable. Therefore pm2 is highly recommended***
+
+##
+
+
 This is a fully functional shellrunner [Telegram bot][]. You tell it a
 command, it executes it and posts the live output. You can send input to the
 command by replying to the output messages.
@@ -43,6 +48,8 @@ sudo dnf group install -y "C Development Tools and Libraries"
 Before using this, you should have obtained an auth token for your bot,
 and know your personal user's numeric ID. If you don't know what this
 means, check out the [blog post][] for a full step-by-step guide.
+
+
 
 ~~~
 git clone https://github.com/botgram/shell-bot.git && cd shell-bot
